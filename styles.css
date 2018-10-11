@@ -58,6 +58,19 @@ a {
     /* background-color: green; */
 }
 
+.sidenav-image {
+    display: block;
+    position: absolute;
+    /* left: 40px; */
+    /* top: 15px; */
+    left: -10px;
+}
+
+.sidenav-image img {
+    transform: scale(0.5);
+
+}
+
 .sidenav-items {
     /* text-align: center; */
 }
