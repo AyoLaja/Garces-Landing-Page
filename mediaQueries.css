@@ -14,7 +14,7 @@
     }
     
     .intro-columns img {
-        margin-left: 0px !important;
+        margin-left: -10px !important;
     }
     
     .intro-columns .column,
@@ -140,6 +140,7 @@
     
     .intro-columns img {
         transform: scale(1) !important;
+        margin-left: 0px !important;
     }
     
     .intro-columns .column {
