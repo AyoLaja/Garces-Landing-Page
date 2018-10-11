@@ -15,12 +15,14 @@ function clickNavItem(button) {
 //FOR DISPLAYING NAV
 function showMenu() {
     const sideNav = document.querySelector('#side-nav')
-    sideNav.style.width = "100%"
+    // sideNav.style.width = "100%"
+    sideNav.style.transform = 'translateX(0%)'
 }
 
 function closeMenu() {
     const sideNav = document.querySelector('#side-nav')
-    sideNav.style.width = "0%"
+    // sideNav.style.width = "0%"
+    sideNav.style.transform = 'translateX(100%)'
 }
 
 const menuOpen = document.querySelector('.menu-open')
