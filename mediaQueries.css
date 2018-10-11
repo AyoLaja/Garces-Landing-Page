@@ -23,8 +23,12 @@
         margin-bottom: 40px;
     }
     
-    .footer-image img, .intro-columns img {
+    .footer-image img  {
         transform: scale(1) !important;
+    }
+
+    .intro-columns img {
+        width: 100%;
     }
 }
 
@@ -87,8 +91,9 @@
     }
     
     .intro-columns img {
-        transform: scale(1) !important;
+        /* transform: scale(1) !important; */
         margin-left: 0px !important;
+        width: 100% !important;
     }
     
     .column-image {
@@ -160,8 +165,13 @@
     }
     
     .intro-columns img {
-        transform: scale(0.7);
-        margin-left: -30px
+        /* transform: scale(1) !important; */
+        /* margin-left: -30px; */
+        width: 60%;
+    }
+
+    .column-image {
+        text-align: center;
     }
 }
 
