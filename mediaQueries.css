@@ -2,7 +2,7 @@
 /*----- Small phones: From 0 to 480px -----*/
 @media only screen and (max-width: 480px) {
     header {
-        height: -webkit-fill-available !important;
+        /* height: -webkit-fill-available !important; */
     }
 
     .intro-image, .founder-image {
