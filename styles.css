@@ -116,6 +116,10 @@ header {
     display: none;
 }
 
+.mySlides img {
+    width: -webkit-fill-available;
+}
+
 .slide-button-cover {
     background-color: #0000008a;
     padding-top: 5px;
