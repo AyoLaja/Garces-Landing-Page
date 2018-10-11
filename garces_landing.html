@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Garces</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <link rel="stylesheet" type="text/css" href="mediaQueries.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"> -->
+        <!-- <link href="https://unpkg.com/ionicons@4.4.4/dist/css/ionicons.min.css" rel="stylesheet"> -->
+    </head>
+    
+    <body>
+        <div id="site">
+            <div id="side-nav">
+                <div class="sidenav-row1">
+                    <div class="menu-bar menu-close">
+                        <ion-icon name="close"></ion-icon>
+                    </div>
+                </div>
+                
+                <div class="sidenav-items">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">RESTURANTS</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">LOYALTY AND GIFT CARDS</a></li>
+                        <li><a href="#">UPCOMING EVENTS</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+            <header>
+                <nav>
+                    <div class="nav-logo">
+                        <img src="assets/nav_logo.png" alt="Navigation Logo"/>
+                    </div>
+                    <div class="nav-items">
+                        <ul>
+                            <li><a href="#" class="active" onclick="clickNavItem(this)">HOME</a></li>
+                            <li><a href="#" onclick="clickNavItem(this)">RESTURANTS</a></li>
+                            <li><a href="#" onclick="clickNavItem(this)">ABOUT</a></li>
+                            <li><a href="#" onclick="clickNavItem(this)">LOYALTY AND GIFT CARDS</a></li>
+                            <li><a href="#" onclick="clickNavItem(this)">UPCOMING EVENTS</a></li>
+                            <li><a href="#" onclick="clickNavItem(this)">CONTACT</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-bar menu-open">
+                        <ion-icon name="menu"></ion-icon>
+                    </div>
+                </nav>
+                
+                <div class="header-logo">
+                    <img src="assets/header_logo.png" alt="Navigation Logo"/>
+                </div>
+            </header>
+            
+            <section id="intro">
+                <div class="intro-zone">
+                    <div class="intro-text">
+                        <h1>We look forward <br/> to serving you</h1>
+                        <br/>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+                            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+                            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+                            officia deserunt mollit anim id est laborum.
+                        </p>
+                        <br/>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                            et dolore magna aliqua.
+                        </p>
+                    </div>
+                    <div class="intro-image">
+                        <div class="founder-image">
+                            <img src="assets/garces.png" alt="Founder"/>
+                        </div>
+                        <div class="founder-signature">
+                            <img src="assets/signature.png" alt="Founder signature"/>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="intro-columns">
+                    <div class="column">
+                        <div class="column-image">
+                            <img src="assets/grid_foundation.png" alt="Garces foundation"/>
+                        </div>
+                        <div class="column-header">
+                            <h1>Garces Foundation</h1>
+                        </div>
+                        <div class="column-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+                                aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                        <div class="column-button">
+                            <button type="button" class="learn-more">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="column-image">
+                            <img src="assets/grid_luna.png" alt="Luna Farm"/>
+                        </div>
+                        <div class="column-header">
+                            <h1>Luna Farm</h1>
+                        </div>
+                        <div class="column-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+                                aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                        <div class="column-button">
+                            <button type="button" class="learn-more">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="column-image">
+                            <img src="assets/grid_events.png" alt="Garces Events"/>
+                        </div>
+                        <div class="column-header">
+                            <h1>Garces Events</h1>
+                        </div>
+                        <div class="column-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+                                aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                        <div class="column-button">
+                            <button type="button" class="learn-more">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="twitter">
+                <div class="follow-us">
+                    <img src="assets/follow_backing.png" alt="Nav logo"/>
+                    <div class="follow-us-text">
+                        <h1>FOLLOW US <br/> @GARCESGROUP <br/> FOR NEWS <br/> AND UPDATES</h1>
+                    </div>
+                </div>
+                <div class="twitter-feed">
+                    
+                </div>
+            </section>
+            
+            <footer id="footer">
+                <div class="footer-columns">
+                    <div class="column">
+                        <div class="footer-image column-content">
+                            <img src="assets/footer_logo.png" alt="Footer logo"/>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="column-content">
+                            <label for="location">Location:</label>
+                            <address>
+                                <a href="https://goo.gl/maps/x1sEuKNvZfq" target="_blank">
+                                    2401 Walnut St #300,<br/>
+                                    Philadelphia, PA 19103 <br/>
+                                    (267) 284-7900
+                                </a>
+                            </address>
+                        </div>
+                        
+                    </div>
+                    <div class="column">
+                        <div class="column-content">
+                            <label for="subscribe">Subscribe:</label>
+                            <p>Join out mailing list today!</p>
+                            <button type="button" class="join-now">Join Now!</button>
+                        </div>
+                        
+                    </div>
+                    <div class="column">
+                        <div class="column-content">
+                            <label for="follow">Follow us on:</label>
+                            <div class="social-image">
+                                <img src="assets/social_icons.png" alt="Socil links"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="https://unpkg.com/ionicons@4.4.4/dist/ionicons.js"></script>
+        <script src="main.js"></script>
+    </body>
+    </html>

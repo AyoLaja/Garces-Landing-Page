@@ -1,0 +1,162 @@
+
+/*----- Small phones: From 0 to 480px -----*/
+@media only screen and (max-width: 480px) {
+    
+    .intro-image, .founder-image {
+        position: relative;
+    }
+    
+    .intro-columns, .footer-columns {
+        display: block;
+    }
+    
+    .intro-columns img {
+        margin-left: 0px !important;
+    }
+    
+    .intro-columns .column,
+    .footer-columns .column {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    
+    .footer-image img, .intro-columns img {
+        transform: scale(1) !important;
+    }
+}
+
+/*----- Phones smaller than iPad: From 481px to 767px -----*/
+@media only screen and (max-width: 767px) {
+    nav, #intro, #twitter, footer {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    
+    .nav-items {
+        display: none;
+    }
+    
+    nav .menu-bar {
+        display: block;
+        position: absolute;
+        right: 40px;
+        top: 15px;
+    }
+
+    .sidenav-items ul li {
+        font-size: 25px !important;
+    } 
+    
+    .header-logo img {
+        transform: scale(0.4) !important;
+    }
+    
+    .intro-zone {
+        display: block !important;
+        padding: 0px !important;
+    }
+    
+    .intro-text, .intro-image, .follow-us {
+        width: 100%;
+    }
+    
+    .intro-image, .intro-signature {
+        margin-top: 20px;
+        display: block !important;
+        text-align: center;
+    }
+    
+    .intro-image .founder-image,
+    .intro-image .founder-signature  {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+    
+    .intro-columns, .footer-columns {
+        display: block !important;
+    }
+    
+    .intro-columns .column,
+    .footer-columns .column {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    
+    .intro-columns img {
+        transform: scale(1) !important;
+        margin-left: 0px !important;
+    }
+    
+    .column-image {
+        text-align: center !important;
+    }
+    
+    .footer-image img {
+        transform: scale(1) !important;
+    }
+}
+
+/*----- Small tablet to big tablets: From 768px to 1023px -----*/
+@media only screen and (max-width: 1023px) { 
+    nav, #intro, #twitter, footer {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    
+    .nav-items {
+        /* display: none; */
+        font-size: 4px;
+        right: 40px;
+    }
+    
+    /* .sidenav-items ul li {
+        font-size: 30px !important;
+    }   */
+    
+    .header-logo img {
+        transform: scale(0.7);
+    }
+    
+    .intro-zone {
+        display: inline-flex;
+        padding: 0px 80px;
+    }
+    
+    .intro-columns {
+        display: block !important;
+    }
+    
+    .footer-columns {
+        display: inline-flex;
+    }
+    
+    .column-image {
+        text-align: center;
+    }
+    
+    .intro-columns img {
+        transform: scale(1) !important;
+    }
+    
+    .intro-columns .column {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    
+    .footer-image img {
+        transform: scale(0.6);
+    }
+}
+
+/*----- Big tablets to 1200px: From 1024px to 1200px (widths smaller than the 1140px row) -----*/
+@media only screen and (max-width: 1200px) { 
+    .intro-zone {
+        padding: 0px 80px;
+    }
+    
+    .intro-columns img {
+        transform: scale(0.7);
+        margin-left: -30px
+    }
+}
